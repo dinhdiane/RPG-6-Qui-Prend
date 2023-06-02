@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>sixquiprend.javafx.sixquiprenddiane/sixquiprend.javafx.sixquiprenddiane.HelloApplication</mainClass>
+              <mainClass>sixquiprend.javafx.sixquiprenddiane/sixquiprend.javafx.sixquiprendjava.Application</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

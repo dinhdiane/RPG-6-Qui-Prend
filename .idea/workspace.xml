@@ -1,355 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da7f112-4dc0-473b-a268-14420c8376d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../APP/ECG.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/doc/screenshot-skeleton-app-init.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/doc/screenshot-skeleton-app-toggle-and-move.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/doc/skeleton-app-client.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/Le6QuiPrendClientJavafxMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/model/GameHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/model/GameModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/GameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/Le6QuiPrendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/TestEchoServerComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/card/CardImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/card/CardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/BorderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/concurrent/CallbackHelperTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/concurrent/CallbacksBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/background-6QuiPrend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/103.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/43.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/62.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/63.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/65.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/67.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/68.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/69.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/71.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/73.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/74.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/75.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/77.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/78.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/79.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/82.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/83.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/84.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/85.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/86.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/89.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/90.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/91.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/92.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/93.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/94.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/95.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/97.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/98.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/backside.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/CardSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/CardStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/GameRetrofitRestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/dto/TestEchoRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/dto/TestEchoResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-common/src/test/java/fr/an/game/le6quiprend/common/CardsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-server/src/main/java/fr/an/game/le6quiprend/server/Le6QuiPrendServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-server/src/main/java/fr/an/game/le6quiprend/server/rest/Le6QuiPrendRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/le-6-qui-prend-server/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Jeux_le_6_qui_prend-main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java.exe/Harry Potter at Home" beforeDir="false" afterPath="$PROJECT_DIR$/../java.exe/Harry Potter at Home" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/Le6QuiPrendClientJavafxMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/model/GameHttpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/model/GameModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/GameView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/Le6QuiPrendApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/TestEchoServerComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/card/CardImages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/ui/card/CardView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/BorderUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/concurrent/CallbackHelperTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/fr/an/game/le6quiprend/clientjavafx/util/concurrent/CallbacksBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/background-6QuiPrend.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-client-javafx/src/main/resources/fr/an/game/le6quiprend/clientjavafx/ui/card/backside.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/lombok.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/CardSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/CardStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/Cards.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/GameRetrofitRestApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/dto/TestEchoRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/restapi/dto/TestEchoResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/CardGameEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/CardGameEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/CardRowSummary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/ChooseCardRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/ChooseLessRowRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/GameDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/GamePlayerCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/GameTurnResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/run/PlayerGameInitInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/fr/an/game/le6quiprend/common/util/LsUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-common/src/test/java/fr/an/game/le6quiprend/common/CardsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-server/src/main/java/fr/an/game/le6quiprend/server/Le6QuiPrendServerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-server/src/main/java/fr/an/game/le6quiprend/server/rest/Le6QuiPrendRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/le-6-qui-prend-server/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../le-6-qui-prend-main/pom.xml" beforeDir="false" />
+    <list default="true" id="497194a6-b1ec-46bc-b221-3dc5c35c313d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Carte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Humain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Joueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/LigneCarte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/System/Partie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/ChoisirLigne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/FenetrePrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/LigneChoisie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/RecupererLigne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/Regle6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/VueJoueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/VuePartie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bg2joueur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/backside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/cards/carteVide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fond 6QuiPrend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fonddroite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo 6QuiPrend.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sixquiprend/javafx/sixquiprenddiane/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sixquiprend/javafx/sixquiprendjava/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sixquiprend/javafx/sixquiprenddiane/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sixquiprend/javafx/sixquiprendjava/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sixquiprend/javafx/sixquiprenddiane/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sixquiprend/javafx/sixquiprendjava/view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2Qbhn3Cn6zcioviEWIfCKV41Qgr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QbhzV9N6jEklfE3Y6uCbUtPLQw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/diane/OneDrive/Documents/ISEP/A1/S2 _ electro/Algo et programmation/6quiPrendJava/src/main/java/View",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diane\OneDrive\Documents\ISEP\A1\S2 _ electro\Algo et programmation\6quiPrendJava\src\main\java\View" />
+      <recent name="C:\Users\diane\OneDrive\Documents\ISEP\A1\S2 _ electro\Algo et programmation\6quiPrendJava" />
+      <recent name="C:\Users\diane\OneDrive\Documents\ISEP\A1\S2 _ electro\Algo et programmation\6quiPrendJava\.settings" />
+      <recent name="C:\Users\diane\OneDrive\Documents\ISEP\A1\S2 _ electro\Algo et programmation\6quiPrendJava\src\main\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9da7f112-4dc0-473b-a268-14420c8376d7" name="Changes" comment="" />
-      <created>1685628355893</created>
+      <changelist id="497194a6-b1ec-46bc-b221-3dc5c35c313d" name="Changes" comment="" />
+      <created>1685628451316</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1685628355893</updated>
-      <workItem from="1685628356869" duration="6000" />
+      <updated>1685628451316</updated>
+      <workItem from="1685628452502" duration="14820000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
