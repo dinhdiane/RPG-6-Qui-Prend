@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import javax.swing.ImageIcon;
 
-public class Carte {
+public class    Carte {
 
     /**
      * @param args

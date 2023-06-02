@@ -7,7 +7,7 @@ public class Joueur {
     private String nom ;
     private int nbTete;
     private int position;
-    private String status;
+    private String statut;
     private int nbCarte;
     private ArrayList<Carte> ListeCarte;
     private Carte carteChoisie;
@@ -20,7 +20,7 @@ public class Joueur {
         this.nom = nom;
         this.nbTete = 0;
         this.position = position;
-        this.status = "RAS";
+        this.statut = "RAS";
         this.nbCarte = 0;
         ListeCarte = new ArrayList<Carte>(10);
         this.typeJoueur = typeJoueur;
@@ -129,12 +129,12 @@ public class Joueur {
         this.position = position;
     }
 
-    public String getStatus() {
-        return status;
+    public String getStatut() {
+        return statut;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setStatut(String statut) {
+        this.statut = statut;
     }
 
     public int getNbCarte() {

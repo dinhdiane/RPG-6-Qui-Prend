@@ -154,7 +154,7 @@ public class VueJoueur extends javax.swing.JDialog {
             }
             setFenetrePrincipal(this.fenetrePrincipal);
             JOptionPane.showMessageDialog(VueJoueur.this,
-                    "Liste de joueur créée !",
+                    "Joueurs créés !",
                     "Joueur créé",
                     JOptionPane.INFORMATION_MESSAGE);
             JOptionPane.showMessageDialog(VueJoueur.this,

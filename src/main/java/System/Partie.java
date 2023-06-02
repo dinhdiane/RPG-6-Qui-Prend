@@ -285,16 +285,16 @@ public class Partie {
         //   partie avec resultat égalité
         if (gagnant=="") {
             for(Joueur joueur : this.joueurs){
-                joueur.setStatus("Egalité");
+                joueur.setStatut("Egalité");
             }
         }
         // partie avec un vainquer
         if (gagnant!="") {
             for(Joueur joueur : this.joueurs){
                 if (joueur.getNom()==gagnant) {
-                    joueur.setStatus("Gagné !");
+                    joueur.setStatut("Gagné !");
                 }else{
-                    joueur.setStatus("Perdu :(");
+                    joueur.setStatut("Perdu :(");
                 }
             }
         }

@@ -123,7 +123,7 @@ public class VuePartie extends javax.swing.JDialog {
             Partie newPartie = new Partie(nb);
             fenetrePrincipal.setPartieEncours(newPartie);
             JOptionPane.showMessageDialog(VuePartie.this,
-                    "Partie de " + nb + " joueur créée !",
+                    "Partie de " + nb + " joueurs créée !",
                     "Partie créée",
                     JOptionPane.INFORMATION_MESSAGE);
 

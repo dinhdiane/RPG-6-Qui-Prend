@@ -47,7 +47,50 @@ public class Regle6 extends javax.swing.JDialog {
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("______________Principe de jeu____________________________\n\n-Les cartes de « 6 qui prend » ont 2 valeurs : une valeur numérique \n(de 1 à 104) qui indique leur future position dans le jeu, et une valeur\nde 1 à 7 « têtes de boeufs » ,qui correspond à des points de pénalité.\n\n-Le but est de récolter le moins possible de têtes de boeufs. Le\ngagnant est celui qui en comptabilise le moins à la fin du jeu.\n\n______________Préparation_______________________________\n\n-Préparez du papier et un crayon, mélangez les cartes et distribuez \n10 cartes à chacun. Chaque joueur prend ses cartes en main .\n\n-Former quatre rangées et Déposez 4 cartes situées sur le dessus de\nla pile des cartes non distribuées sur la table, faces visibles. \nChaque carte représente le début d’une série, qui, ne doit pas\ncomporter plus de 5 cartes en tout. La pile des cartes restantes ne\nsera plus utile avant la prochaine manche.\n\n______________Déroulement du jeu\n\n-Tous les joueurs prennent 1 carte de leur jeu pour la déposer face \ncachée devant eux sur la table. Une fois que le dernier s’est décidé, \non retourne ces cartes. Celui qui a déposé la carte la plus faible est\nle premier à jouer sa carte dans une des quatre rangées, puis vient le\ntour de celui qui a déposé la deuxième carte la plus faible et ainsi de \nsuite jusqu’à ce que celui qui a déposé la carte la plus forte de ce tour\n-Les cartes d’une série sont toujours déposées les unes à côté des\nautres. On répète le même processus jusqu’à ce que les 10 cartes\ndes joueurs soient épuisées.\n\n______________Encaissement des cartes\n\n- Que se passe-t-il lorsqu’une série est terminée ou lorsqu’une carte ne\nva dans aucune série ? Dans les deux cas, le joueur qui joue une telle\n\n- Règle n°1: „Valeurs croissantes“\nLes cartes d’une série doivent toujours se succéder dans l’ordre \ncroissant de leurs valeurs.\n\n-Règle n°2: „La plus petite différence“\nUne carte doit toujours être déposée dans la série où la différence \nentre la dernière carte déposée et la nouvelle est la plus faible.\n\n-Règle n°3: „Série terminée“\nUne série est terminée lorsqu’elle compte 5 cartes. Lorsque, d’après \nla règle n°2, une sixième carte doit y être déposée, le joueur qui joue \ncette carte doit ramasser les 5 cartes de la série. Sa sixième carte \nforme alors le début d’une nouvelle série\n\n-Règle n°4: „La carte la plus faible“\nLe joueur qui joue une carte si faible qu’elle ne peut aller dans aucune\ndes séries doit ramasser toutes les cartes d’une série de son choix. \nSa carte „faible“ représente alors la première carte d’une nouvelle série.\n\n______________Fin de manche\n\n-Une manche prend fi n lorsque les 10 cartes sont jouées. Chaque \njoueur compte alors ses points négatifs dans sa pile de têtes de boeuf.\nOn note le résultat de chacun des joueurs sur une feuille de papier, \npuis on commence une nouvelle manche. On joue plusieurs manches \njusqu’à ce que l’un des joueurs ait réuni en tout plus de 66 têtes de \nboeuf. Le vainqueur de la partie est alors le joueur qui a le moins de \ntêtes de boeuf. Avant le début du jeu, il est bien sûr possible de convenir\nd’un autre total de points ou d’un nombre de manches maximum.\n\nQue le meuilleure gagne.");
+        jTextArea1.setText(
+                "______________________Principe de jeu____________________________" +
+                        "\n 6 qui prend! est un jeu de cartes pouvant se jouer de 2 à 10 joueurs."+
+                        "\n Le jeu contient :"+
+                            "\n • 104 cartes, numérotées de 1 à 104."+
+                        "\n Chaque carte possède un nombre de “têtes de bœuf”, allant de 1 à 7 " +
+                        "\n selon les règles cumulatives suivantes :"+
+                            "\n • les numéros se terminant en 5 ont 2 têtes de bœuf,"+
+                            "\n • Les num´eros se terminant en 0 ont 3 tˆetes de bœuf,"+
+                            "\n • Les doublets (“11”, “22”) ont 5 têtes de bœuf."+
+                        "\n Par exemple, la carte “12” a une tête de bœuf, “15” en a 2 et “55” en a 7."+
+                        "\n L’objectif pour chaque joueur est d’obtenir le moins de têtes de bœuf."+
+
+                "\n \n \n  ______________________Règles de jeu____________________________" +
+                        "\nLa partie se déroule de la manière suivante :\n" +
+                        "• Au début, 10 cartes sont distribuées à chaque joueur.\n" +
+                        "• 4 cartes sont posées ensuite au milieu. " +
+                        "\n Chacune des cartes représente le début d’une série.\n" +
+                        "• A chaque début de tour, chaque joueur place une carte face cachée " +
+                        "\n devant lui.\n" +
+                        "• Une fois que tous les joueurs ont posé leur carte, on les dévoile et on les\n" +
+                        "place en fonction des règles présentées dans la section suivante.\n" +
+                        "• La partie se termine quand les 10 cartes ont été posées.\n"+
+
+                        "\n Lorsque l’on dévoile les cartes, on commence par placer la plus faible " +
+                        "\n des cartes et on procède par ordre croissant.\n" +
+                                    "\n \n Le placement des cartes répond aux règles suivantes:\n" +
+                                "\n Règle 1: Valeurs croissantes: " +
+                        "\n Les cartes d’une série doivent toujours se succéder dans l’ordre croissant de leurs valeurs.\n" +
+                                "\n Règle 2: La plus petite différence : " +
+                        "\n Une carte doit toujours être déposée dans la\n" +
+                                "série où la différence entre la dernière carte déposée et la nouvelle est la plus faible.\n" +
+                                "\n Règle 3: Série terminée: " +
+                        "\n Une série est terminée lorsqu’elle compte 5 cartes.\n " +
+                                "Lorsque d’après la règle 2, une sixième carte doit y être déposée, le joueur qui joue\n" +
+                                "cette carte doit ramasser les 5 cartes de la série. Sa sixième carte forme alors le début d’une nouvelle série.\n" +
+                                "\n Règle 4: La carte la plus faible: " +
+                        "\n Le joueur qui joue une carte si faible qu’elle ne peut aller dans " +
+                                "\n aucune des séries doit ramasser toutes les cartes d’une série de son choix." +
+                                "\n Sa carte “faible” représente alors la première carte d’une nouvelle série.\n" +
+                                "Lorsqu’un joueur récupère des cartes, elles ne vont pas dans sa main" +
+                                "\n mais dans son tas.\n"
+
+        );
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setAutoscrolls(false);
         jTextArea1.setBorder(null);

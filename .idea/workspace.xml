@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="497194a6-b1ec-46bc-b221-3dc5c35c313d" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/background4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/wood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Carte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Joueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/System/Partie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/System/Partie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/FenetrePrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/FenetrePrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/Regle6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/Regle6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/VueJoueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/VueJoueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/VuePartie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/VuePartie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/diane/OneDrive/Documents/ISEP/A1/S2 _ electro/Algo et programmation/6quiPrendJava/src/main/java/View",
+    "last_opened_file_path": "C:/Users/diane/OneDrive/Documents/ISEP/A1/S2 _ electro/Algo et programmation/java.exe/Harry Potter at Home",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685628451316</updated>
-      <workItem from="1685628452502" duration="15116000" />
+      <workItem from="1685628452502" duration="18523000" />
     </task>
     <task id="LOCAL-00001" summary="Final">
       <created>1685684630307</created>
@@ -89,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685684895070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final">
+      <created>1685684921138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685684921138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

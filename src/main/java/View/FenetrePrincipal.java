@@ -5,7 +5,6 @@ import java.awt.event.MouseEvent;
 import java.net.URL;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import Model.Joueur;
@@ -1008,14 +1007,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -1222,14 +1221,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -1437,14 +1436,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité !", "Partie Terminée.",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -1651,14 +1650,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -1865,14 +1864,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -2079,14 +2078,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -2293,14 +2292,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -2507,14 +2506,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -2721,14 +2720,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
@@ -2935,14 +2934,14 @@ public class FenetrePrincipal extends javax.swing.JFrame {
                 if(fenetrePrincipalM.getPartieEncours().getGagnant()==""){
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Egalité", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
                 else{
                     JOptionPane.showMessageDialog(fenetrePrincipalM, "Gagnant : \n "+fenetrePrincipalM.getPartieEncours().getGagnant()+"", "Partie Terminée !",
                             JOptionPane.WARNING_MESSAGE);
-                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatus());
-                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatus());
+                    s1.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(0).getStatut());
+                    s2.setText(fenetrePrincipalM.getPartieEncours().getJoueurs().get(1).getStatut());
                 }
 
             }
