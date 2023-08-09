@@ -5,7 +5,7 @@ RPG réalisé en collaboration avec Cabrel TAYO FOYO.
 
 
 ## Description du projet
-Ce projet consiste en le développement en Java d'un RPG du jeu "6 qui prend!", effectuée dans le cadre du module Algorithmique et Programmation de la première année de cycle ingénieur à l'ISEP (Institut Supérieur d'Electronique de Paris).
+Ce projet consiste en le développement en Java d'un RPG du jeu "6 qui prend!", effectué dans le cadre du module Algorithmique et Programmation de la première année de cycle ingénieur à l'ISEP (Institut Supérieur d'Electronique de Paris).
 
 Les attendus sont :
 
